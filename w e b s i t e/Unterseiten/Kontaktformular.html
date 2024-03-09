@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular</title>
+    <link rel="stylesheet" href="/Unterseiten/kontaktformular.css">
+    <link rel="icon" href="/Bilder/Favicon-new.png" type="png">
+</head>
+<body>
+
+
+<form action="https://api.web3forms.com/submit" method="POST">
+    <fieldset>
+        <input type="hidden" name="access_key" value="e1de8dbc-073e-46b3-a110-7fb864affc36">
+        <input type="hidden" name="redirect" value="https://web3forms.com/success">
+        <input type="checkbox" name="read" class="hidden" style="display: none;">
+        
+        <div class="Kontaktformular">
+            <img class="Logo" src="/Bilder/Header.jpg" alt="Logo">
+            <hr>
+            <h1>KONTAKTFORMULAR</h1>
+            <hr>
+        </div>
+
+        <div class="Eingaben">
+            
+            <div class="Anliegen">
+                <h2>ANLIEGEN:</h2>
+                <label for="Anliegen"></label><br>
+                <select id="Anliegen" name="Anliegen" required>
+                    <option value="" selected disabled>Bitte wählen</option>
+                    <option value="Probestunde"  >Probestunde</option>
+                    <option value="Fragen zu Dienstleistungen">Fragen zu Dienstleistungen</option>
+                    <option value="Fragen zu Preisen">Fragen zu Preisen</option>
+                    <option value="Sonstiges">Sonstiges</option>
+                </select><br><br>
+            <div>
+    
+            <div class="Vorname"></div>
+                <h2>VORNAME:</h2>
+                <label for="Vorname"></label><br>
+                <input type="text" name="Vorname" id="Vorname" placeholder="Dein Vorname..." required required minlength="2"/><br><br>
+            <div>
+
+            <div class="Nachname">
+                <h2>NACHNAME:<h2>
+                <label for="Nachname"></label><br>
+                <input type="text" name="Nachname" id="Nachname" placeholder="Dein Nachname..." required /><br><br>
+            </div>
+
+            <div class="E-Mail">
+                <h2>E-MAIL-ADRESSE:<h2>
+                <label for="E-Mail-Adresse"></label><br>
+                <input type="email" name="E-Mail-Adresse" id="E-Mail-Adresse" placeholder="Deine E-Mail-Adresse..." required /><br><br>
+            <div>
+
+            <div class="Telefonnummer">
+                <h2>TELEFONNUMMER:<h2>
+                <label for="Telefonnummer"></label><br>
+                <input type="text" name="Telefonnummer" id="Telefonnummer" placeholder="Deine Telefonnummer..." required /><br><br>
+            <div>
+
+            <div class="Nachricht">
+                <h2>NACHRICHT:<h2>
+                <label for="Nachricht"></label><br>
+                <textarea name="Nachricht" id="Nachricht" placeholder="Deine Nachricht..." required required minlength="20"></textarea><br><br>
+            </div>
+        </div>
+        
+        
+        <div class="submit-button">
+            <button type="submit"><h3>ABSCHICKEN</h3><img type="svg" src="/Bilder/reshot-icon-arrow-right-ZP2WDL9B8N.svg" alt="Pfeil"></button>
+        </div>
+    </fieldset>
+</form>
+
+</body>
+</html>
+
+

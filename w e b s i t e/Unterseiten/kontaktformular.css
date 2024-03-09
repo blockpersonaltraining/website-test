@@ -1,0 +1,204 @@
+@font-face{
+    font-family: Überschrift;
+    src: url(/Schriften/Roboto-Medium.ttf);}
+@font-face{
+    font-family: Unterschrift;
+    src: url(/Schriften/Roboto-Light.ttf);}
+
+*{
+    max-width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+    overscroll-behavior: none;
+    overflow-x: clip;
+}
+/*Hintergrund/Corpus*/
+body{
+    max-width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #F7F6F3;
+    font-family: 'Unterschrift';
+    margin: 0;
+    padding: 0;
+    justify-content: center;}
+
+/*Formular-Hintergrund*/
+form {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 7.5%;
+    margin: 0;
+    justify-content: center;}
+ 
+/*Formular-Hintergrund*/
+fieldset {
+    box-sizing: border-box;
+    border-radius: 17px 17px;
+    background-color: #2D2C2D;
+    color:#F7F6F3;
+    outline: none;
+    border: none;
+    padding: 7.5%;
+    margin: 0;
+    width: 100%;
+    height: 100%;}
+
+/*Logo*/
+.Logo{
+    max-width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+    justify-content: center;}
+
+/*Kontaktformular-Überschrift*/
+.Kontaktformular h1{
+    box-sizing: border-box;
+    padding: 5%;
+    margin: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 0.75rem;}
+.Kontaktformular hr{
+    box-sizing: border-box;
+    text-align: center;
+    opacity: 60%;
+    margin: 0;}
+
+/*Auswahl*/
+select{
+    box-sizing: border-box;
+    padding: 2.5%;
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    background-color: #F7F6F3;
+    color: #2D2C2D;
+    letter-spacing: 2.5px;
+    font-family: 'Unterschrift';
+    font-size: 0.8rem;
+    margin: 0;
+    border-radius: 7px 7px;
+    border:none;}
+
+/*Eingaben*/
+
+input{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2.5%;
+    margin: 0;
+    background-color: #F7F6F3;
+    height: 100%;
+    color: #2D2C2D;
+    letter-spacing: 2.5px;
+    font-family: 'Unterschrift';
+    border-radius: 7px 7px;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;}
+.Eingaben{
+    box-sizing: border-box;
+    padding: 1.5%;
+    margin: 0;}
+.Anliegen{
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    margin: 0;}
+.Vorname{
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    margin: 0;}
+.Nachname{
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    margin: 0;}
+.E-Mail{
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    margin: 0;}
+.Telefonnummer{
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    margin: 0;}
+.Nachricht{
+    box-sizing: border-box;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    margin: 0;}
+h2{
+    font-size: 1rem;
+    font-weight: 150;
+    letter-spacing: 0.5rem;
+    box-sizing: border-box;
+    font-family: 'Unterschrift';
+    margin: 0; }
+input::placeholder{
+    background-color: #F7F6F3;
+    color: #A6906A;}
+  
+/*Nachrichten-Box*/
+textarea{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 2.5%;
+    min-height: 120px;
+    font-size: 0.8rem;
+    background-color: #F7F6F3;
+    color: #2D2C2D;
+    letter-spacing: 2.5px;
+    font-family: 'Unterschrift';
+    border-radius: 7px 7px;
+    outline: none;
+    margin: 0;}
+textarea::placeholder{
+    background-color: #F7F6F3;
+    color: #A6906A;}
+
+/*Button*/
+button{
+    box-sizing: border-box;
+    width: fit-content;
+    height: 100%;
+    max-width: 95%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    padding: 2.5%;
+    font-size: 1rem;
+    color: #2D2C2D;
+    letter-spacing: 0.5rem;
+    background-color: #F7F6F3;
+    gap:5%;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    border-radius: 7px 7px;
+    margin: 0;}
+.submit-button button img{
+    box-sizing: border-box;
+    padding: 0;
+    align-items: center;
+    height: 25px;
+    width: 25px;
+    color: #2D2C2D;
+    margin: 0;}
+h3{
+    box-sizing: border-box;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: 'Unterschrift';
+    font-weight: 100;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;}
